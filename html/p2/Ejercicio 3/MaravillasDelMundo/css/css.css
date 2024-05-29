@@ -1,0 +1,47 @@
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+.imgtabla{
+    width: 300px;
+    height: 300px;
+}
+
+.efecto { height: 70%; width: 70%; transition: height 0.5s, width 0.5s; }
+.efecto:hover{ height: 85%; width: 85%;}
+
+#tituloIndex{
+    text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tablaIndex{
+    border-collapse: collapse; align-items: center; width: 70%; margin: 0 auto;
+}
+
+.tablaMaravilla {
+    border: 1px solid black;
+    padding: 8px; 
+    overflow: hidden; 
+    word-wrap: break-word;
+}
+
+.tablaMaravillaAzul{
+    border: 1px solid black;
+    padding: 8px; 
+    overflow: hidden; 
+    word-wrap: break-word;
+    background-color: rgb(164, 164, 235); 
+}
+
+.imgMaravilla{
+    border: 1px solid black;
+    padding: 8px; 
+    overflow: hidden; 
+    word-wrap: break-word;
+    vertical-align: middle; text-align: left; font-size: larger; width: 400px;
+}
+
+.bordeMaravilla{
+    border: 1px solid black; padding: 8px; border-collapse: collapse;
+}

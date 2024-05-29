@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animación de Estrella con Imagen</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f0f0;
+  }
+
+  .star-path {
+    width: 100px; 
+    height: 100px; 
+    background-image: url('img/rocket.png'); 
+    background-size: cover; 
+    position: relative;
+    animation: star-path 10s infinite; 
+  }
+
+  @keyframes star-path {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(150px, -300px); } 
+    20% { transform: translate(300px, 0); } 
+    30% { transform: translate(0, -180px); } 
+    40% { transform: translate(300px, -180px); } 
+    50% { transform: translate(0, 0); } 
+    60% { transform: translate(150px, -300px); } 
+    70% { transform: translate(300px, 0); } 
+    80% { transform: translate(0, -180px); } 
+    90% { transform: translate(300px, -180px); } 
+    100% { transform: translate(0, 0); } 
+  }
+</style>
+</head>
+<body>
+
+<div class="star-path"></div>
+
+</body>
+</html>
